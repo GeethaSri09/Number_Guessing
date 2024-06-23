@@ -6,7 +6,7 @@ number = random.randint(1,15)
 Guess1 = int(input("Enter your Number Between 1 to 15\n"))
 
 if(Guess1 == number):
-    print("You Guessed in First Trail!! it Awsome\n")
+    print("You Guessed in First Trail!! it's Awsome\n")
     sys.exit()
 
 elif(number < Guess1):
@@ -20,14 +20,14 @@ else:
 Guess2 = int(input("Enter your Number Between 1 to 15\n"))
 
 if(Guess2 == number):
-    print("You Guessed in second Trail!! it Nice\n")
+    print("You Guessed in Second Trail!! it's Nice\n")
     sys.exit()
 
 elif(number < Guess2):
-    print("Number is too high. Try you have Another one Chances......")
-
+    print("Number is too high. Try you have Another one Chance......")
+    
 else:
-    print("Number is too low. Try you have Another one Chances......")
+    print("Number is too low. Try you have Another one Chance......")
 
 
 Guess3 = int(input("Enter your Number Between 1 to 15\n"))
